@@ -1,0 +1,183 @@
+
+
+
+body{
+	background-color: #9966FF;
+	margin-right: 12px;
+	margin-left: 12px;
+	
+	margin-bottom: 12px;
+}
+header{
+	background-color: blanchedalmond;
+	color: darkblue;
+	padding-bottom: 0px;
+	margin-top:1px, solid maroon;
+	text-align: center;
+	border: 2px solid;
+	border-color: maroon;
+	border-style: groove;
+	font-size: 0.7em;
+
+
+}
+a:link{
+	color: purple;
+	background-color: gold;
+	font-weight: bold;
+
+
+}
+
+
+
+
+a:hover{
+	color: darkblue;
+	background-color: deeppink;
+	font-weight: bolder;
+	font-family:monospace;
+	font-size:2.0em ;
+	font-stretch: extra-expanded;
+	border: 3px solid;
+	border-color: red;
+	border-style: inset;
+}
+a:active{
+	color: red;
+	background-color:green ;
+}
+
+h1{
+	background-color: #6600CC;
+	text-align: center;
+	color: #33CC00;
+	font-family: fantasy;
+	font-size:5em;
+	font-weight: bolder;
+	border: 3px solid;
+	border-color: maroon;
+	padding-top: 0px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+
+}
+h1:hover{
+	background-color: #CC##FF;
+	color: #00FF00;
+}
+img{
+	width:300px;
+	height: 300px;
+
+}
+img:hover{
+	background-color: maroon;
+	border: 5px solid;
+	border-color: yellow;
+}
+
+.icons{
+	width: 4%;
+	height: 2%;
+	background-color: gold;
+	border: 2px solid;
+	border-color: white;
+	border-radius: 50%;
+
+
+}
+.icon{
+	width:100%;
+	height: 150px;
+	border: 1px solid;
+	border-color: darkblue;
+	border-radius: 5%;
+
+}
+
+h2{
+	text-align: center;
+	font-size: 3em;
+	font-family:sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+}
+h2:hover{
+	font-family: cursive;
+	font-size: 3.5em;
+	color: maroon;
+
+}
+h3:hover{
+	font-family:sans-serif;
+	font-size: 2.5em;
+	color: maroon;
+}
+#apart{
+	float: right;
+	background-color: yellow;
+	box-sizing: border-box;
+	float: right;
+	
+
+}
+#apart1{
+	float: right;
+	background-color: red;
+	box-sizing: border-box;
+}
+p{
+	text-align: center;
+	font-family: cursive;
+	font-size: 2.5em;
+	
+}
+b{
+	color: maroon;
+	background-color: green;
+}
+b:hover{
+	background-color: white;
+	font-family: fantasy;
+	color: darkred;
+	border: 1px solid;
+	border-color: black;
+}
+h3{
+	font-size: 1.8em;
+	text-align: center;
+	background-color: darkgray;
+}
+li:hover{font-family: cursive;
+	font-size: 1.5em;
+
+}
+dl{
+	margin-right: 3px;
+	margin-left: 3px;
+	background-color:#000066;
+	color: gold;
+	font-size: 1.5em;
+	border: 6px solid;
+	border-color: maroon;
+	border-style: inset;
+	border-radius: 3%;
+}
+footer{
+	text-align: center;
+	color: darkblue;
+	font-weight: bolder;
+	border-bottom: 5px solid;
+	border-color: maroon;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+aside{
+	float: right;
+	clear: both;
+}

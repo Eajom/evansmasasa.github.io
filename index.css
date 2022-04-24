@@ -63,7 +63,7 @@ h1{
 	background-color:#444;
 	text-align: center;
 	color: #00ff00;
-	font-family: fantasy;
+	font-family: monospace;
 	font-size:5em;
 	font-weight: bolder;
 	border: 3px solid;
@@ -71,22 +71,26 @@ h1{
 	padding-top: 0px;
 	margin-top: 2px;
 	margin-bottom: 0px;
+	text-shadow: -8px -8px 8px yellow,8px 8px 8px maroon;  
 
 
 }
 h1:hover{
 	background-color: #CC##FF;
 	color: #00FF00;
+
 }
 img{
 	width:300px;
 	height: 300px;
+	background-color: maroon;
+	opacity: 100%;
 
 }
 img:hover{
 	background-color: yellow;
 	border: 5px solid;
-	border-color: yellow;
+	border-color: black;
 }
 
 .icons{
@@ -127,6 +131,7 @@ h3:hover{
 	font-family:sans-serif;
 	font-size: 2.5em;
 	color: maroon;
+
 }
 #apart{
 	float: right;
@@ -157,6 +162,8 @@ p{
 	text-align: center;
 	font-family: monospace;
 	font-size: 1.5em;
+	text-transform: uppercase;
+
 	
 }
 b{
@@ -192,12 +199,15 @@ li:hover{font-family: cursive;
 #maths{
 	background-color: #333;
 	float: left;
+	opacity: 100%;
+
 }
 #english{
 	background-color: #444;
 }
 #sst{
 	background-color: #333;
+	opacity: 100%;
 }
 #science{
 	background-color: #444;
@@ -205,11 +215,9 @@ li:hover{font-family: cursive;
 .subjects{
 	color: magenta;
 	font-family: monospace;
-	max-width: 24.8%;
+	max-width: 25%;
 	float: right;
 	height: 150px;
-	border: 1px solid;
-	border-color: black;
 	margin: 0px;
 	padding: 0px;
 }

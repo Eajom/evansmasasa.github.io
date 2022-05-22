@@ -186,7 +186,13 @@ li:hover{font-family: cursive;
 	
 	
 }
-
+.vide:hover{
+	background:yellow;
+	color: black;
+	cursor: pointer;
+	border: 3px solid maroon;
+	padding: 3px;
+}
 .subjects{
 	
 	font-family: monospace;
@@ -212,6 +218,10 @@ footer{
 	margin-right: 0px;
 }
 @media screen and (max-width: 640px){
+	.vide{
+		width: 33.33%;
+		float: left;
+	}
 
 	.foot{
 		width: 100%;
@@ -293,6 +303,10 @@ h3{
 
 @media screen and (min-width:641px) and (max-width: 1007px
 ){
+	.vide{
+		width: 33.33%;
+		float: left;
+	}
 
 .foot{
 		width: 100%;
@@ -429,6 +443,10 @@ h3{
 
 
 @media screen and (min-width:1008px){
+	.vide{
+		width: 33.33%;
+		float: left;
+	}
 
 .foot{
 		width: 100%;
